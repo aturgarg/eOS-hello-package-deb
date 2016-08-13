@@ -1,14 +1,14 @@
-Source: cmake-hello-world
+Source: hello-package
 Section: x11
 Priority: extra
-Maintainer: Cody Garver <cody@elementaryos.org>
+Maintainer: Atur Garg <atur1985@live.com>
 Build-Depends: cmake (>= 2.8),
                debhelper (>= 9),
                libgtk-3-dev,
                valac (>= 0.16)
 Standards-Version: 3.9.3
 
-Package: cmake-hello-world
+Package: hello-package
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Hey young world

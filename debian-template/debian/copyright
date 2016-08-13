@@ -1,6 +1,6 @@
 Format: http://dep.debian.net/deps/dep5
-Upstream-Name: cmake-hello-world
-Source: https://elementaryos.org
+Upstream-Name: hello-package
+Source: https://github.com/aturgarg/eOS-hello-package-deb
 
 Files: *
 Copyright: 2013 elementary LLC.

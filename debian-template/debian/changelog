@@ -1,5 +1,5 @@
-cmake-hello-world (0.1) precise; urgency=low
+hello-package (0.1) precise; urgency=low
 
   * Initial Release.
 
- -- Cody Garver <cody@elementaryos.org>  Tue, 9 Apr 2013 04:53:39 -0500
+ -- Atur Garg <atur1985@live.com> Sat, 13 Aug 2016 10:33:39 +0530
