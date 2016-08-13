@@ -49,45 +49,45 @@ include CMakeFiles/hello-package.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hello-package.dir/flags.make
 
-src/hello-again.c: hello-package_valac.stamp
+src/hello-package.c: hello-package_valac.stamp
 
-hello-package_valac.stamp: ../src/hello-again.vala
+hello-package_valac.stamp: ../src/hello-package.vala
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/hello-again.c"
-	/usr/bin/valac -C -b /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging -d /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build --pkg=gtk+-3.0 -g /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/src/hello-again.vala
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/hello-package.c"
+	/usr/bin/valac -C -b /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging -d /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build --pkg=gtk+-3.0 -g /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/src/hello-package.vala
 	touch /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build/hello-package_valac.stamp
 
-CMakeFiles/hello-package.dir/src/hello-again.c.o: CMakeFiles/hello-package.dir/flags.make
-CMakeFiles/hello-package.dir/src/hello-again.c.o: src/hello-again.c
+CMakeFiles/hello-package.dir/src/hello-package.c.o: CMakeFiles/hello-package.dir/flags.make
+CMakeFiles/hello-package.dir/src/hello-package.c.o: src/hello-package.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/hello-package.dir/src/hello-again.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hello-package.dir/src/hello-again.c.o   -c /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build/src/hello-again.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/hello-package.dir/src/hello-package.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hello-package.dir/src/hello-package.c.o   -c /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build/src/hello-package.c
 
-CMakeFiles/hello-package.dir/src/hello-again.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello-package.dir/src/hello-again.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build/src/hello-again.c > CMakeFiles/hello-package.dir/src/hello-again.c.i
+CMakeFiles/hello-package.dir/src/hello-package.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello-package.dir/src/hello-package.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build/src/hello-package.c > CMakeFiles/hello-package.dir/src/hello-package.c.i
 
-CMakeFiles/hello-package.dir/src/hello-again.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello-package.dir/src/hello-again.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build/src/hello-again.c -o CMakeFiles/hello-package.dir/src/hello-again.c.s
+CMakeFiles/hello-package.dir/src/hello-package.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello-package.dir/src/hello-package.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build/src/hello-package.c -o CMakeFiles/hello-package.dir/src/hello-package.c.s
 
-CMakeFiles/hello-package.dir/src/hello-again.c.o.requires:
-.PHONY : CMakeFiles/hello-package.dir/src/hello-again.c.o.requires
+CMakeFiles/hello-package.dir/src/hello-package.c.o.requires:
+.PHONY : CMakeFiles/hello-package.dir/src/hello-package.c.o.requires
 
-CMakeFiles/hello-package.dir/src/hello-again.c.o.provides: CMakeFiles/hello-package.dir/src/hello-again.c.o.requires
-	$(MAKE) -f CMakeFiles/hello-package.dir/build.make CMakeFiles/hello-package.dir/src/hello-again.c.o.provides.build
-.PHONY : CMakeFiles/hello-package.dir/src/hello-again.c.o.provides
+CMakeFiles/hello-package.dir/src/hello-package.c.o.provides: CMakeFiles/hello-package.dir/src/hello-package.c.o.requires
+	$(MAKE) -f CMakeFiles/hello-package.dir/build.make CMakeFiles/hello-package.dir/src/hello-package.c.o.provides.build
+.PHONY : CMakeFiles/hello-package.dir/src/hello-package.c.o.provides
 
-CMakeFiles/hello-package.dir/src/hello-again.c.o.provides.build: CMakeFiles/hello-package.dir/src/hello-again.c.o
+CMakeFiles/hello-package.dir/src/hello-package.c.o.provides.build: CMakeFiles/hello-package.dir/src/hello-package.c.o
 
 # Object files for target hello-package
 hello__package_OBJECTS = \
-"CMakeFiles/hello-package.dir/src/hello-again.c.o"
+"CMakeFiles/hello-package.dir/src/hello-package.c.o"
 
 # External object files for target hello-package
 hello__package_EXTERNAL_OBJECTS =
 
-hello-package: CMakeFiles/hello-package.dir/src/hello-again.c.o
+hello-package: CMakeFiles/hello-package.dir/src/hello-package.c.o
 hello-package: CMakeFiles/hello-package.dir/build.make
 hello-package: CMakeFiles/hello-package.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable hello-package"
@@ -97,14 +97,14 @@ hello-package: CMakeFiles/hello-package.dir/link.txt
 CMakeFiles/hello-package.dir/build: hello-package
 .PHONY : CMakeFiles/hello-package.dir/build
 
-CMakeFiles/hello-package.dir/requires: CMakeFiles/hello-package.dir/src/hello-again.c.o.requires
+CMakeFiles/hello-package.dir/requires: CMakeFiles/hello-package.dir/src/hello-package.c.o.requires
 .PHONY : CMakeFiles/hello-package.dir/requires
 
 CMakeFiles/hello-package.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/hello-package.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/hello-package.dir/clean
 
-CMakeFiles/hello-package.dir/depend: src/hello-again.c
+CMakeFiles/hello-package.dir/depend: src/hello-package.c
 CMakeFiles/hello-package.dir/depend: hello-package_valac.stamp
 	cd /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build /home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build/CMakeFiles/hello-package.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hello-package.dir/depend

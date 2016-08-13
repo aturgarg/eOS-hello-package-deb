@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build/src/hello-package.c
+glib.h
+-
+glib-object.h
+-
+stdlib.h
+-
+string.h
+-
+gtk/gtk.h
+-
+

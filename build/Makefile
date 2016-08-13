@@ -152,29 +152,29 @@ hello-package/fast:
 	$(MAKE) -f CMakeFiles/hello-package.dir/build.make CMakeFiles/hello-package.dir/build
 .PHONY : hello-package/fast
 
-src/hello-again.o: src/hello-again.c.o
-.PHONY : src/hello-again.o
+src/hello-package.o: src/hello-package.c.o
+.PHONY : src/hello-package.o
 
 # target to build an object file
-src/hello-again.c.o:
-	$(MAKE) -f CMakeFiles/hello-package.dir/build.make CMakeFiles/hello-package.dir/src/hello-again.c.o
-.PHONY : src/hello-again.c.o
+src/hello-package.c.o:
+	$(MAKE) -f CMakeFiles/hello-package.dir/build.make CMakeFiles/hello-package.dir/src/hello-package.c.o
+.PHONY : src/hello-package.c.o
 
-src/hello-again.i: src/hello-again.c.i
-.PHONY : src/hello-again.i
+src/hello-package.i: src/hello-package.c.i
+.PHONY : src/hello-package.i
 
 # target to preprocess a source file
-src/hello-again.c.i:
-	$(MAKE) -f CMakeFiles/hello-package.dir/build.make CMakeFiles/hello-package.dir/src/hello-again.c.i
-.PHONY : src/hello-again.c.i
+src/hello-package.c.i:
+	$(MAKE) -f CMakeFiles/hello-package.dir/build.make CMakeFiles/hello-package.dir/src/hello-package.c.i
+.PHONY : src/hello-package.c.i
 
-src/hello-again.s: src/hello-again.c.s
-.PHONY : src/hello-again.s
+src/hello-package.s: src/hello-package.c.s
+.PHONY : src/hello-package.s
 
 # target to generate assembly for a file
-src/hello-again.c.s:
-	$(MAKE) -f CMakeFiles/hello-package.dir/build.make CMakeFiles/hello-package.dir/src/hello-again.c.s
-.PHONY : src/hello-again.c.s
+src/hello-package.c.s:
+	$(MAKE) -f CMakeFiles/hello-package.dir/build.make CMakeFiles/hello-package.dir/src/hello-package.c.s
+.PHONY : src/hello-package.c.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... src/hello-again.o"
-	@echo "... src/hello-again.i"
-	@echo "... src/hello-again.s"
+	@echo "... src/hello-package.o"
+	@echo "... src/hello-package.i"
+	@echo "... src/hello-package.s"
 .PHONY : help
 
 

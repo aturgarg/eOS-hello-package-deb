@@ -1,0 +1,2 @@
+/usr/bin/hello-package
+/usr/share/applications/hello.desktop

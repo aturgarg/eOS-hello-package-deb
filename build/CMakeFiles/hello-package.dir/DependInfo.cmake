@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build/src/hello-again.c" "/home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build/CMakeFiles/hello-package.dir/src/hello-again.c.o"
+  "/home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build/src/hello-package.c" "/home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build/CMakeFiles/hello-package.dir/src/hello-package.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

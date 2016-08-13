@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
-  "src/hello-again.c"
+  "src/hello-package.c"
   "hello-package_valac.stamp"
-  "CMakeFiles/hello-package.dir/src/hello-again.c.o"
+  "CMakeFiles/hello-package.dir/src/hello-package.c.o"
   "hello-package.pdb"
   "hello-package"
 )
