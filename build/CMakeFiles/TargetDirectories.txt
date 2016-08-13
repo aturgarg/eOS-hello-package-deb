@@ -1,0 +1,1 @@
+/home/freya/eOsGettingStarted/Projects/hello-world/hello-packaging/build/CMakeFiles/hello-package.dir
